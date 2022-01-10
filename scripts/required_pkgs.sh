@@ -207,8 +207,8 @@ dist="$(find_dist)"
 echo "$dist"
 
 case "$dist" in
-    *buster*)   debian10_pkgs ;;
-    *bullseye*) debian11_pkgs ;;
+    *bionic* | *buster*)   debian10_pkgs ;;
+    *focal*  | *bullseye*) debian11_pkgs ;;
     *CentOS* | *Scientific* ) 
         centos_version=$(centos_dist)
         if [ "$centos_version" == "7" ]; then
