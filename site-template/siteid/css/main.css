@@ -46,6 +46,8 @@ body {
 
 #siteimages{
     float: right;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
 }
 
 /* site_navbar */
@@ -56,10 +58,10 @@ body {
 
 .nav {
     border-top-style: solid;
-    border-top-color: #007681;
+    border-top-color: #1E5DF8;
     border-top-width: 0.01em;
     border-bottom-style: solid;
-    border-bottom-color: #007681;
+    border-bottom-color: #1E5DF8;
     border-bottom-width: 0.01em;
 }
 
@@ -93,7 +95,7 @@ ul.mainmenu li a {
 
 /* Change background color of links on hover */
 ul.mainmenu li a:hover {
-    background-color:#007681;
+    background-color:#1E5DF8;
 }
 
 ul.mainmenu li a.active {
